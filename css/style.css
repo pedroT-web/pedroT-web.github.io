@@ -1,3 +1,6 @@
+.container{
+}
+
 .titulo-nome>h1{
     font-size: 3rem;
     font-weight: 400;
@@ -11,4 +14,117 @@
 .dados-pessoais, .dados-contato{
     display: flex;
     flex-direction: column;
+}
+
+.dados-contato>div{
+    width: 50%;
+    margin: 0 auto;
+
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(37, 51, 62, 0.522);   
+    
+}
+.dados-contato>div:hover{
+    scale: 1.02;
+    transition: ease-out 0.2s;
+}
+
+
+.formacao>h3,
+.experiencia>h3,
+.cursos-extras>h3,
+.projetos>h3{
+    border-bottom: 1px solid #cbd0d4;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+/*==========FORMAÇÃO=========*/
+
+
+.formacao .cartao{
+    display: flex;
+    flex-direction: column;
+
+    border: 2px solid black;
+    border-radius: 15px;
+
+    padding: 10px;
+    height: 100px;
+}
+
+.formacao .cartao:hover{
+    scale: 1.02;
+    box-shadow: 3px 3px 10px rgba(37, 51, 62, 0.522);
+    transition: ease-out 0.2s;
+}
+.formacao .cartao>label>span{
+    font-weight: bold;
+}
+
+/*==========EXPERIÊNCIA=========*/
+.experiencia .campo-experiencia{
+    display: flex;
+    flex-direction: column;
+}
+.experiencia>main>div{
+    display: flex;
+    flex-direction: column;
+
+    border: 2px solid black;
+    border-radius: 15px;
+
+    padding: 10px;
+
+}
+.experiencia>main>div:hover{
+    scale: 1.02;
+    box-shadow: 3px 3px 10px rgba(37, 51, 62, 0.522);
+    transition: ease-out 0.2s;
+}
+.experiencia>main>div>label>span{
+    font-weight: bold;
+}
+
+/*==========CURSOS=========*/
+.cursos-extras>main>div{
+    display: flex;
+    flex-direction: column;
+
+    border: 2px solid black;
+    border-radius: 15px;
+
+    padding: 10px;
+    height: 120px;
+}
+.cursos-extras>main>div:hover{
+    scale: 1.02;
+    box-shadow: 3px 3px 10px rgba(37, 51, 62, 0.522);
+    transition: ease-out 0.2s;
+}
+.cursos-extras>main>div>label>span{
+    font-weight: bold;
+}
+
+/*==========Projetos=========*/
+.projetos>main>div{
+    display: flex;
+    flex-direction: column;
+
+    border: 2px solid black;
+    border-radius: 15px;
+
+    padding: 10px;
+    height: 250px;
+    
+}
+
+.projetos>main>div:hover{
+    scale: 1.02;
+    box-shadow: 3px 3px 10px rgba(37, 51, 62, 0.522);
+    transition: ease-out 0.2s;
+}
+
+.projetos>main>div>label>span{
+    font-weight: bold;
 }
