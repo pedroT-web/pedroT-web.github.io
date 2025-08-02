@@ -17,7 +17,7 @@
 }
 
 .dados-contato>div{
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
 
     border: 2px solid black;
@@ -25,6 +25,12 @@
     box-shadow: 3px 3px 10px rgba(37, 51, 62, 0.522);   
     
 }
+
+.campo_contato{
+    width: 100%;
+    height: 100%;
+}
+
 .dados-contato>div:hover{
     scale: 1.02;
     transition: ease-out 0.2s;
