@@ -50,7 +50,7 @@
     border-radius: 15px;
 
     padding: 10px;
-    height: 100px;
+    height: 100%;
 }
 
 .formacao .cartao:hover{
@@ -66,6 +66,8 @@
 .experiencia .campo-experiencia{
     display: flex;
     flex-direction: column;
+
+    height: 100%;
 }
 .experiencia>main>div{
     display: flex;
@@ -74,6 +76,7 @@
     border: 2px solid black;
     border-radius: 15px;
 
+    
     padding: 10px;
 
 }
@@ -95,7 +98,7 @@
     border-radius: 15px;
 
     padding: 10px;
-    height: 120px;
+    height: 100%;
 }
 .cursos-extras>main>div:hover{
     scale: 1.02;
@@ -114,8 +117,9 @@
     border: 2px solid black;
     border-radius: 15px;
 
+    height: 100%;
     padding: 10px;
-    height: 250px;
+
     
 }
 
